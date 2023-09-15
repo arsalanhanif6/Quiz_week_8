@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
         
-years = []
-co2 = []
-temp = []
+years = [1950,1960,1970,1980,1990,2000,2010]
+co2 = [250,265,272,260,300,320,389]
+temp = [14.1,15.5,16.3,18.1,17.3,19.1,20.2]
 
 plt.subplot(2, 1, 1)
 plt.plot(years, co2, 'b--') 
